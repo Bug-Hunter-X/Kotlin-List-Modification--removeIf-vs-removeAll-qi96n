@@ -1,0 +1,1 @@
+This example highlights a subtle difference between Kotlin's `removeIf` and `removeAll` functions when used with mutable lists.  `removeIf` modifies the list directly, while `removeAll` returns a boolean indicating whether any elements were removed.  This difference can lead to unexpected behavior if not understood.
